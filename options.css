@@ -1,0 +1,76 @@
+.options {
+    display: flex;
+    flex-direction: row;
+    gap: 10px ;
+}
+
+.option1 {
+    width: 100%;
+    flex: 1;
+    height: 24rem;
+    margin-top: 1rem;
+    position: relative;
+
+    
+    
+
+
+}
+.image1{
+    width: 73%;
+    height: 100%;
+    overflow: hidden;
+    margin-left: 217px;
+    margin-top: -184px;
+    border: 2px rgb(214, 34, 34);
+
+
+}
+.image1 img{
+    width: 33.5rem;
+    height: 50%;
+    margin-top: 3px;
+    border-radius: 1rem;
+    object-fit: cover;
+
+    
+   }
+
+
+
+.option2 {
+    width: 100%;
+    flex: 1;
+    height: 24rem;
+    position: inherit;
+
+}
+.image2{
+    width: 73%;
+    height: 100%;
+    margin-left: -15px;
+    margin-top: -168px;
+
+    
+
+
+}
+.image2 img{
+    width: 33.5rem;
+    height: 50%;
+    margin-top: 3px;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    object-fit: cover;
+
+    
+   }
+
+.info{
+    color: rgb(206, 179, 245);
+    width: 19rem;
+    margin-left: 1rem;
+    margin-top: -15rem;
+    background-color: black;
+
+}
